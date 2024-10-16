@@ -1,3 +1,9 @@
+fastapi
+uvicorn
+pydantic
+openai
+cryptography
+tiktoken
 playwright
 beautifulsoup4
 # playwrite install to install pw browsers
