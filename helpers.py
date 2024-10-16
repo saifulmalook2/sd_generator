@@ -3,6 +3,8 @@ import os
 import json
 from scrape import scrape_main, parse_pdf, parse_pdf_page, parse_vendors
 
+
+
 client = AsyncAzureOpenAI(
     azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
     api_key=os.getenv("AZURE_OPENAI_API_KEY"),

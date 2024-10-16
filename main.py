@@ -45,13 +45,7 @@ from helpers import (
     dc_8,
     dc_9
 )
-import chardet
 
-# Inside your file handling code
-def detect_encoding(file_path):
-    with open(file_path, 'rb') as f:
-        result = chardet.detect(f.read())
-    return result['encoding']
 
 logging.basicConfig(format="%(levelname)s     %(message)s", level=logging.INFO)
 # hack to get rid of langchain logs

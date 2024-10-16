@@ -9,3 +9,5 @@ beautifulsoup4
 # playwrite install to install pw browsers
 PyPDF2
 openpyxl
+aiofiles
+python-multipart
